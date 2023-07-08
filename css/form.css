@@ -1,0 +1,41 @@
+.form{
+    padding: 13px;
+}
+
+.formrow{
+    display: flex;
+    margin-bottom: 13px;
+    flex-wrap: wrap;
+}
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 5px;
+}
+.formlabel{
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.formInput{
+    border-radius: 100px;
+    border: none;
+    padding: 13px;
+    box-shadow: 0 0 9px rgba(145, 140, 140, 0.548);
+}
+.inputTextarea{
+    min-height: 300px;
+    border-radius: 8px;
+    resize: vertical;
+    font-size: 15px;
+}
+.formBtn{
+    padding: 13px 50px;
+    color: #ffffff;
+    background: #000;
+    border-radius: 8px;
+    font-family: vazir;
+    border: none;
+    outline: none;
+}

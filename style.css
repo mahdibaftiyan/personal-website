@@ -1,0 +1,200 @@
+@import "css/reset.css";
+@import "css/layout.css";
+@import "css/fonts.css";
+@import "css/transitions.css";
+@import "css/animation.css";
+@import "css/viewsCtr.css";
+@import "css/resume.css";
+@import "css/aboutme.css";
+@import "css/call_me.css";
+@import "css/samples.css";
+@import "css/mobile-views.css";
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(image/marvin-meyer-SYTO3xs06fU-unsplash.jpg) no-repeat;
+    background-size: cover;
+    direction: rtl;
+    font-family: vazir;
+}
+
+.app{
+    height: 100vh;
+}
+
+/* nav */
+.nav{
+    margin: 30px 63px;
+    background: rgba(255, 255, 255, 0.555);
+    border-radius: 1000px;
+    padding:15px;
+    border: 2px solid #FFF;
+    /* z-index: 13; */
+}
+
+.logo{
+    width:40px;
+    height: 40px;
+    color: #000;
+    font-size: 37px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.navItems{
+    padding-right: 13px;
+}
+
+.navItem{
+    text-decoration: none;
+    color: #000;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.navItem-icon{
+    font-size: 20px;
+}
+
+.navItem-text{
+    font-size: 13px;
+    margin-top: 5px;
+}
+/* end nav */
+
+/* social */
+.social{
+    margin-bottom: 55px;
+    margin-left: 40px;
+    border: 2px solid #FFF;
+    border-radius: 100px;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    top: -1px;
+    left: -2px;
+    width: 44px;
+    height: 44px;
+    background: #FFF;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.socialItem{
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: #000;
+    cursor: pointer;
+    z-index: 3;
+}
+.socialItem:first-child{
+    color: #000;
+}
+
+.socialItem:hover{
+    color: #000;
+}
+
+.socialItem:nth-child(2):hover ~ .circle{
+    top: 39px;
+}
+
+.socialItem:nth-child(3):hover ~ .circle{
+    top: 78px;
+}
+/* end social */
+
+/* lang */
+.lang{
+    margin-top: 55px;
+    margin-left: 40px; 
+}
+.langitem{
+    width: 39px;
+    height: 39px;
+    color: #fff;
+    border: 2px solid #FFF;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+.active{
+    background: #FFF;
+    color: #000;
+}
+/* end lang */
+
+/* header */
+.headerTxet{
+    padding-right: 60px;
+    padding-top:100px;
+}
+.headerFrist{
+    font-size: 40px;
+}
+.headerlast{
+    font-size: 70px;
+    font-family: bold;
+    padding: 7px;
+}
+.headerjob{
+    font-size: 25px;
+    justify-content:  flex-start;
+    margin-top: 13px;
+}
+.headertiteljob{
+    background: #FFF;
+    color: #000;
+    margin: 0px 4px;
+    border-radius: 3000px;
+    font-size: 20px;
+    height: 32px;
+    overflow: hidden;
+}
+.headertitlewerapper{
+    animation: jobsTitle 15s ease-in-out;
+    transition: 0.8s ease-in-out all;
+    animation-iteration-count: infinite;
+}
+
+.headertitleItems{
+    padding: 7px 15px;
+    font-size: 20px;
+}
+/* end header */
+
+/* view */
+.view{
+    width: 80vw;
+    height: 90vh;
+    background: #fff;
+    position: fixed;
+    top:10vh;;
+    box-shadow: 0 0 13px rgba(255, 255, 255, 0.342);
+    z-index: 12;
+    border-radius: 8px 8px 0 0
+}
+
+
+.viewHeader{
+    background: #f9f9f9;
+}
+.viewHeaderIcon{
+    font-size: 40px;
+    padding: 13px;
+}
+.viewHeaderTexts{
+    justify-content: center;
+}
+.viewHeadertitle{
+    font-size: 23px;
+}
+.viewHeaderdesc{
+    font-size: 13px;
+    margin-top: 10px;
+}
+/* end view */

@@ -1,0 +1,61 @@
+.CtrInput{
+    display: none;
+}
+
+/* start view Two */
+#viewsCtrTwo:checked ~ .app .header{
+    filter: blur(5px);
+}
+#viewsCtrTwo:checked ~ .app .nav{
+    background: #fff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.137);
+    z-index: 13;
+}
+#viewsCtrTwo:checked ~ .app #viewTwo{
+    transform: translateY(0%)  translateX(-50%);
+}
+/* end view Two */
+
+
+/* start view Three */
+#viewsCtrThree:checked ~ .app .header{
+    filter: blur(5px);
+}
+#viewsCtrThree:checked ~ .app .nav{
+    background: #fff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.137);
+    z-index: 13;
+}
+#viewsCtrThree:checked ~ .app #viewThree{
+    transform: translateY(0%)  translateX(-50%);
+}
+/* end view Three */
+
+
+/* start view Four */
+#viewsCtrFour:checked ~ .app .header{
+    filter: blur(5px);
+}
+#viewsCtrFour:checked ~ .app .nav{
+    background: #fff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.137);
+    z-index: 13;
+}
+#viewsCtrFour:checked ~ .app #viewFour{
+    transform: translateY(0%)  translateX(-50%);
+}
+/* end view Four */
+
+/* start view Five */
+#viewsCtrFive:checked ~ .app .header{
+    filter: blur(5px);
+}
+#viewsCtrFive:checked ~ .app .nav{
+    background: #fff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.137);
+    z-index: 13;
+}
+#viewsCtrFive:checked ~ .app #viewFive{
+    transform: translateY(0%)  translateX(-50%);
+}
+/* end view Five */

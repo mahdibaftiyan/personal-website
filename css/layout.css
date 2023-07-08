@@ -1,0 +1,19 @@
+/* flex reset */
+.flex{
+    display: flex;
+}
+.flex-y{
+    flex-direction: column;
+}
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+.flex-fill{
+    flex: 1;
+}
+/* end flex reset */
+.center{
+    left: 50%;
+    transform: translateX(-50%);
+}

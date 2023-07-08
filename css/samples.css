@@ -1,0 +1,135 @@
+#viewFive{
+    transform: translateY(100%)  translateX(-50%);
+    overflow-y: auto;
+    padding-bottom: 300px;
+}
+
+.CtrSample{
+    display: none;
+}
+.CtrSample:checked + label.CategoryItem{
+    background: rgb(71, 72, 72);
+    color: #fff;
+}
+.CategoryItem{
+    background: transparent;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.137);
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 13px;
+    color: #000;
+    padding: 13px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* .line{
+    position: absolute;
+    top: 122px;
+    right: 16px;
+    width: 112px;
+    height: 3px;
+    border-radius: 8px;
+    background: rgb(155, 221, 221);
+}
+
+#CS2:checked ~ .line{
+    right: 148px;
+    background: rgb(155, 221, 221);
+}
+#CS3:checked ~ .line{
+    right: 282px;
+    background: rgb(155, 221, 221);
+}
+#CS4:checked ~ .line{
+    right: 417px;
+    width: 119px;
+    background: rgb(155, 221, 221);
+}
+
+#CS1:hover ~ .line{
+    right: 16px;
+    background: rgb(51, 60, 59);
+}
+#CS2:hover ~ .line{
+    right: 148px;
+    background: rgb(51, 60, 59);
+}
+#CS3:hover ~ .line{
+    right: 282px;
+    background: rgb(51, 60, 59);
+}
+#CS4:hover ~ .line{
+    right: 417px;
+    width: 119px;
+    background: rgb(51, 60, 59);
+} */
+.socialItem:first-child{
+    color: #000;
+}
+
+.socialItem:hover{
+    color: #000;
+}
+
+.socialItem:nth-child(2):hover ~ .circle{
+    top: 39px;
+}
+
+.socialItem:nth-child(3):hover ~ .circle{
+    top: 78px;
+}
+
+
+
+.inputwerapper{
+    position: relative;
+}
+.sampleWerappr{
+    display: flex;
+}
+.sampleWerapperItem{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.sample{
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 13px;
+}
+.sample img{
+    display: block;
+    width: 100%;
+}
+
+/* start ctr category */
+#CS2:checked ~ .sampleWerappr .sampleWerapperItem .sample[category="C1"]{
+    display: none;
+}
+#CS3:checked ~ .sampleWerappr .sampleWerapperItem .sample[category="C2"]{
+    display: none;
+}
+#CS4:checked ~ .sampleWerappr .sampleWerapperItem .sample[category="C3"]{
+    display: none;
+}
+/* end ctr category */
+
+/* mobile screen */
+@media only screen and (max-width:500px){
+    .CategoryItem{
+        margin-right: 13px;
+        padding: 10px;
+        font-size:13px;
+    }
+    .sampleWerappr{
+        display: flex;
+        flex-direction: column;
+    }
+    .sampleWerapperItem{
+        width: 100% !important;
+        flex: none !important;
+        flex-wrap: wrap !important;
+    }
+}
+/* end mobile screen */

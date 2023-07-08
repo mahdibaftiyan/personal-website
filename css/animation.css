@@ -1,0 +1,37 @@
+@keyframes jobsTitle{
+    0%{
+        transform: translateY(0px);
+    }
+
+    25%{
+        transform: translateY(0px);
+    }
+
+    27%{
+        transform: translateY(-33px);
+    }
+
+    47%{
+        transform: translateY(-33px);
+    }
+
+    50%{
+        transform: translateY(-67px);
+    }
+
+    75%{
+        transform: translateY(-67px);
+    }
+
+    77%{
+        transform: translateY(-103px);
+    }
+
+    99%{
+        transform: translateY(-103px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}

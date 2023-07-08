@@ -1,0 +1,36 @@
+/* transition */
+.trans-01{
+    -webkit-transition: 0.1s ease-in-out all;
+    -moz-transition: 0.1s ease-in-out all;
+    -o-transition: 0.1s ease-in-out all;
+    transition: 0.1s ease-in-out all;
+}
+
+.trans-02{
+    -webkit-transition: 0.2s ease-in-out all;
+    -moz-transition: 0.2s ease-in-out all;
+    -o-transition: 0.2s ease-in-out all;
+    transition: 0.2s ease-in-out all;
+}
+
+.trans-03{
+    -webkit-transition: 0.3s ease-in-out all;
+    -moz-transition: 0.3s ease-in-out all;
+    -o-transition: 0.3s ease-in-out all;
+    transition: 0.3s ease-in-out all;
+}
+
+.trans-04{
+    -webkit-transition: 0.4s ease-in-out all;
+    -moz-transition: 0.4s ease-in-out all;
+    -o-transition: 0.4s ease-in-out all;
+    transition: 0.4s ease-in-out all;
+}
+
+.trans-05{
+    -webkit-transition: 0.5s ease-in-out all;
+    -moz-transition: 0.5s ease-in-out all;
+    -o-transition: 0.5s ease-in-out all;
+    transition: 0.5s ease-in-out all;
+}
+/* end transition */
